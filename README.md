@@ -1,12 +1,34 @@
-# React + Vite
+# SPIO – Right to Information Online Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Overview
 
-Currently, two official plugins are available:
+The **SPIO – Right to Information Online Portal** is a responsive web application designed for the Administrative Reforms, Training, Pension and Public Grievances Department, Government of Tripura. Its objective is to streamline RTI (Right to Information) request management and improve administrative transparency through a modern digital interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Framework:** React (Vite)
+- **Styling:** Bootstrap 5
+- **Routing:** React Router DOM
+- **Version Control & Hosting:** Git, GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💡 Features
+
+- **Login Page:** User-friendly login interface with CAPTCHA verification.
+- **Dashboard:** Displays key RTI statistics (total, approved, pending) and announcements. No sidebar for a clean, full-width layout.
+- **Request List:** Searchable and filterable table listing all requests, with action buttons to view details.
+- **Request Details:** Editable request information (applicant name, status, remarks) with success confirmation alerts.
+- **Consistent Header & Footer:** Common navigation and credits, including Government and NIC attribution.
+- **Responsive Design:** Mobile-friendly and accessible across devices.
+
+## ⚙️ Setup Instructions
+
+```bash
+# Clone the repository
+git clone https://github.com/SupratimRayChaudhury/Demo-NIC-2.git
+cd Demo-NIC-2
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
